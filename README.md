@@ -9,7 +9,7 @@ Examples:
 Qt-Designer rendered with fancy Nodoka-Midnight
 ![qtdesignerwithnodokamidnight](https://raw.githubusercontent.com/yennar/QGtkStyleNoneX11/master/web/images/qt_designer_with_nodoka_midnight.png)
 
-WingIDE, a famous Python IDE developed by PyQt
+WingIDE, a famous Python IDE developed by PyQt, rendered with GTK theme Murrian Chrome
 ![wingidewithmurrinachrome](https://raw.githubusercontent.com/yennar/QGtkStyleNoneX11/master/web/images/wingide_with_murrina_chrome.png)
 
 
