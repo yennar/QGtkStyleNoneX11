@@ -23,13 +23,13 @@ WingIDE, a famous Python IDE developed by PyQt
  Enable Gtk Style
 ------------------
 
-### For applications does either developed by you or not, use one of these:
+#### For applications does either developed by you or not, use one of these:
 
 * launch the application with -style GTK+
 * set `%QT_GTKSTYLE = 1` and select a style by gtk2_prefs.exe, see http://sourceforge.net/projects/gtk-win/files/GTK%2B%20Preference%20Tool/0.4.1/
 * set `%GTK2_RC_FILES` to one of the themes in GTK directory
 
-### You may a qt developer and may want select GTK theme inside your code:
+#### You may a qt developer and may want select GTK theme inside your code:
 
 * See new example: style_gtk
 
@@ -41,7 +41,7 @@ Required by LGPL v2.0, the source code of hacked qt-gtkstyle are also provided. 
 * Download offical pre-compiled package.
 * Copy the source code from this project and overwrite offical source.
 
-### For Qt4
+#### For Qt4
 
 * `configure -fast -release -no-qmake -nomake demos -nomake examples`
 * cd /tools/configure and make/nmake
