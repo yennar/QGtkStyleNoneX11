@@ -23,7 +23,7 @@ WingIDE, a famous Python IDE developed by PyQt
  Enable Gtk Style
 ------------------
 
-#### For applications does either developed by you or not, use one of these:
+#### For applications either developed by you or not, use one of these:
 
 * launch the application with -style GTK+
 * set `%QT_GTKSTYLE = 1` and select a style by gtk2_prefs.exe, see http://sourceforge.net/projects/gtk-win/files/GTK%2B%20Preference%20Tool/0.4.1/
