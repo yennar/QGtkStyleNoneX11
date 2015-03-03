@@ -1,0 +1,1 @@
+-release -opengl desktop -no-angle 
