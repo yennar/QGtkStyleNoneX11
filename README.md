@@ -18,7 +18,8 @@ WingIDE, a famous Python IDE developed by PyQt, rendered with GTK theme Murrian 
 ---------
 
 1. Unzip zip/GTK_2_10_WIN32.zip, add its /bin to `%PATH`
-1. Unzip zip/qt-opensource-windows-[arch]-[vcver]-[qtver].zip, overwrite your existed QtCoreX.dll and QtGuiX.dll with the ones in the zipball
+1. For Qt4, Unzip zip/qt-opensource-windows-[arch]-[vcver]-[qtver].zip, overwrite your existed QtCore4.dll and QtGui4.dll with the ones in the zipball
+1. For Qt5, Unzip zip/qt-opensource-windows-[arch]-[vcver]-[qtver].zip, overwrite your existed QtWidgets5.dll with the one in the zipball
 
  Enable Gtk Style
 ------------------
@@ -44,6 +45,13 @@ Required by LGPL v2.0, the source code of hacked qt-gtkstyle are also provided. 
 #### For Qt4
 
 * `configure -fast -release -no-qmake -nomake demos -nomake examples`
+* cd /tools/configure and make/nmake
+* configure again
+* make/nmake
+
+#### For Qt5
+
+* `configure -release -opengl desktop -no-angle`
 * cd /tools/configure and make/nmake
 * configure again
 * make/nmake
